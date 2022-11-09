@@ -16,6 +16,7 @@ class GamesController < ApplicationController
     @letters = params[:letters]
     @letters.upcase!
     letter_test = true
+    
     grid_new = @letters
     count = 0
 
